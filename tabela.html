@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Projekt nr 2 na zajęcia z Programowania aplikacji WWW.">
+    <title>Cennik</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/styl.css">
+</head>
+<body>
+<div class="container.fluid bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand nav1" href="index.html">Projekt2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Strona główna</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tabela.html">Tabela</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Multimedia</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="multi.html#galeria">Galeria</a>
+                        <a class="dropdown-item" href="multi.html#filmy">Filmy</a>
+                        <a class="dropdown-item" href="multi.html#audio">Audio</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-7 mg-top">
+            <h2 class="bold text-center">Cennik</h2>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Projekt www</th>
+                    <th scope="col">Cena</th>
+                    <th scope="col">Jednostka</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-active">
+                    <th scope="row">Projekt graficzny wyglądu strony (layout)</th>
+                    <td>250-500 pln</td>
+                    <td>strona</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kodowanie strony</th>
+                    <td>250-500 pln</td>
+                    <td>strona</td>
+                </tr>
+                <tr class="table-active">
+                    <th scope="row">Galeria zdjęć</th>
+                    <td>50 pln</td>
+                    <td>zdjęcie</td>
+                </tr>
+                <tr>
+                    <th scope="row">Formularz kontaktowy</th>
+                    <td>85 pln</td>
+                    <td>strona</td>
+                </tr>
+                <tr class="table-active">
+                    <th scope="row">Dodatkowe funkcjonalności, efekty specjalne</th>
+                    <td>25-100 pln</td>
+                    <td>strona</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-3 text-center p-5">
+            <aside>
+                <section class="zasoby">
+                    <h3 class="bold">Przydatne linki:</h3>
+                    <ul>
+                        <li><a href="http://www.w3schools.com/" >w3schools </a></li>
+                        <li><a href="http://wmii.uwm.edu.pl/">Wydział Matematyki i Informatyki </a></li>
+                        <li><a href="http://orfi.uwm.edu.pl/~s150788/szablon/">Szablon </a></li>
+                        <li><a href="http://orfi.uwm.edu.pl/~s150788/projekt1/">Projekt1 </a></li>
+                    </ul>
+                    <h3 class="bold">Kontakt: </h3>
+                    <ul>
+                        <li><a href="mailto:pawel.bronk@student.uwm.edu.pl" >pawel.bronk@student.uwm.edu.pl </a></li>
+                        <li class="bold">Telefon: 111 222 333</li>
+                    </ul>
+                </section>
+                <div class="media_spolecznosciowe">
+                    <span class="instagram"><a href="https://www.instagram.com/?hl=pl">Instagram</a></span>
+                    <span class="twitter"><a href="https://twitter.com/">Twitter</a></span>
+                    <span class="facebook"><a href="https://www.facebook.com/">Facebook</a></span>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center text-white bg-primary mg-top">
+            <footer>Stopka &copy;2020</footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
